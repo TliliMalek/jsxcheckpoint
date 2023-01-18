@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.profile {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: antiquewhite;
+  justify-content: space-evenly;
+  margin-top: 10%;
+  height: 1080px;
+  margin-top: -5%;
 }
-
-.App-link {
-  color: #61dafb;
+.photo_img {
+  width: 120px;
+  border-radius: 50%;
+  border: 2px #b5aa8d solid;
+  margin-left: 35%;
+  margin-top: -2%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Photo_pro {
+  margin-top: 20%;
+  width: 409px;
+  height: 255px;
+  background-image: url("https://i.pinimg.com/564x/96/85/3f/96853f1690a1042a8dea40e425002bf4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Photo_pro:hover{
+  ox-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 60px 100px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.Name_pro{
+  margin-top: 20%;
+  width: 409px;
+  height: 255px;
+  background-image: url("https://i.pinimg.com/564x/96/85/3f/96853f1690a1042a8dea40e425002bf4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Name_pro:hover{
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 60px 100px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.Adress_pro{
+  margin-top: 20%;
+  width: 409px;
+  height: 255px;
+  background-image: url("https://i.pinimg.com/564x/96/85/3f/96853f1690a1042a8dea40e425002bf4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Adress_pro:hover{
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 60px 100px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.image_titre{
+  margin-left: 32%;
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive ;
+  background: linear-gradient(to right, #FFD86E, #AE7723,
+      #FFD86E, #AE7723);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.name_titre{
+  margin-left: 40%;
+  top: 40%;
+  left: 40%;
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive ;
+  background: linear-gradient(to right, #FFD86E, #AE7723,
+      #FFD86E, #AE7723);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.adress_titre{
+  margin-left: 40%;
+  top: 40%;
+  left: 40%;
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive ;
+  background: linear-gradient(to right, #FFD86E, #AE7723,
+      #FFD86E, #AE7723);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.name_para{ 
+  margin-left: 25%;
+  top: 40%;
+  left: 40%;
+  font-size: 25px;
+  font-family: 'Comfortaa', cursive ;
+  background: linear-gradient(to right, #FFD86E, #AE7723,
+      #FFD86E, #AE7723);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.adress_para{
+  margin-left: 25%;
+  top: 40%;
+  left: 40%;
+  font-size: 25px;
+  font-family: 'Comfortaa', cursive ;
+  background: linear-gradient(to right, #FFD86E, #AE7723,
+      #FFD86E, #AE7723);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
